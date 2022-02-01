@@ -48,7 +48,7 @@ app.use('/api', fileRoutes.routes);
 const PORT = process.env.PORT; 
 
 app.get('/', function (req, res) {
-    res.send('Hello World')
+    res.send('Hello World 😀⭐👍')
   })
   app.listen(PORT, () => console.log("app is started", PORT));
   
