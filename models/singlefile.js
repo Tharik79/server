@@ -6,20 +6,20 @@ const Schema  = mongoose.Schema;
 const singleFileSchema = new Schema({
     fileName: {
         type: String,
-        required: true
+        //required: true
     },
     filePath: {
         type: String,
-        required: true
+        //required: true
 
     },
     fileType: {
         type: String,
-        required: true
+        //required: true
     },
     fileSize: {
         type: String,
-        required:true
+        //required:true
     },
 }, {timestamps: true});
 
